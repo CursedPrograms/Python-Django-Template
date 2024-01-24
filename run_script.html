@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Script Form</title>
+</head>
+<body>
+    <h1>Run Script Form</h1>
+    <form method="post" action="{% url 'run_script' script_number='1' %}">
+        {% csrf_token %}
+        <label for="script_number">Select Script:</label>
+        <select name="script_number" id="script_number">
+            {% for key, script_info in scripts.items %}
+                <option value="{{ key }}">{{ script_info.name }} - {{ script_info.description }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Run Script</button>
+    </form>
+</body>
+</html>
