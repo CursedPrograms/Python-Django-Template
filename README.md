@@ -1,4 +1,4 @@
-# Cursed-Python-Template
+# Python-Django-Template
 
 
 ```bash
