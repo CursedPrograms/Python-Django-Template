@@ -8,11 +8,6 @@
 *.svg linguist-documentation=false
 *.svg linguist-detectable=true
 
-*.txt linguist-vendored=false
-*.txt linguist-generated=false
-*.txt linguist-documentation=false
-*.txt linguist-detectable=true
-
 *.toml linguist-vendored=false
 *.toml linguist-generated=false
 *.toml linguist-documentation=false
