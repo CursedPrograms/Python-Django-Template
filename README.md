@@ -27,18 +27,17 @@
 
 # Python-Django-Template
 
-  <br>
+<br>
 
-```bash
-pip install django
-```
-
-  <br>
-
+## How to Run:
 ```bash
 pip install -r requirements.txt
 ```
+  <br>
 
+```bash
+python main.py
+```
   <br>
 
 To make the setup script executable, run the following command in your terminal:
@@ -46,13 +45,20 @@ To make the setup script executable, run the following command in your terminal:
 ```bash
 chmod +x setup.sh
 ```
-<br>
+
+  <br>
+
+## Requirements:
+
+```bash
+flask
+```
+
 <div align="center">
-© Cursed Entertainment
+© Cursed Entertainment 202*
 </div>
-<br>
 <div align="center">
-<a href="https://cursed-entertainment.itch.io/" target="_blank">
+<a href="https://github.com/CursedPrograms" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
         alt="CursedEntertainment Logo" style="width:250px;">
 </a>
